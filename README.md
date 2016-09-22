@@ -23,30 +23,30 @@ https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library
 
 Here are simple but useful comment sets.
 
-#-- align joint at 90 Degree
->> align <ch> 
+## align joint at 90 Degree
+">>" align <ch> 
   <ch> : 0 ~ 5 for 6DOF
 
-#-- align all joints at 90 Degree
->> alignall 
+## align all joints at 90 Degree
+">>" alignall 
 
-#-- move the servo to the specific degree
->> move <ch> <angle>
+## move the servo to the specific degree
+">>" move <ch> <angle>
   <ch> : 0 ~ 5 for 6 DOF
   <angle> : 0 ~ 180 Degree
   
-#-- go to the sleep position
->> sleep
+## go to the sleep position
+">>" sleep
 
-#-- go to ready-for-the-work position
->> ready
+## go to ready-for-the-work position
+">>" ready
 
-#-- print currnent angle position for all joints
->> status
+## print currnent angle position for all joints
+">>" status
 {0:90, 1:20, 2:30, 3:50, 4:60, 5: 50}
 
-#-- wakeup from the sleep poistion and go to the ready position
->> wake
+## wakeup from the sleep poistion and go to the ready position
+">>" wake
 
 These scripts are not final sets at all because I just wanted to have basic interactive 
 tools for tuning/testing the move. And did not used any parsing aids (lex/yacc/bison/...)
